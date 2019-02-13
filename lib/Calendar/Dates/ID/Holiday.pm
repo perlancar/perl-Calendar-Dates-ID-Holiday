@@ -32,3 +32,15 @@ for my $e (@{ $res->[2] }) {
 
 1;
 # ABSTRACT: Indonesian holiday calendar
+
+=head1 DESCRIPTION
+
+This module provides Indonesian holiday calendar using the L<Calendar::Dates>
+interface.
+
+
+=head1 SEE ALSO
+
+L<Calendar::Dates>
+
+L<Calendar::Indonesia::Holiday>, the backend
