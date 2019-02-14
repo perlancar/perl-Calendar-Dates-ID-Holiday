@@ -1,3 +1,11 @@
+0.006   2019-02-14 (PERLANCAR)
+
+	- No functional changes.
+
+	- Adjust to renamed role
+	  Calendar::DatesRoles::From{Data,EntriesVar}.
+
+
 0.005    2019-02-14 (PERLANCAR)
 
          - No functional changes.
