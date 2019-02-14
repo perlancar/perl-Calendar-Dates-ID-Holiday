@@ -10,7 +10,7 @@ use warnings;
 use Calendar::Indonesia::Holiday;
 use Role::Tiny::With;
 
-with 'Calendar::DatesRoles::FromData';
+with 'Calendar::DatesRoles::FromEntriesVar';
 
 our @ENTRIES;
 my $res = Calendar::Indonesia::Holiday::list_id_holidays(detail=>1);
