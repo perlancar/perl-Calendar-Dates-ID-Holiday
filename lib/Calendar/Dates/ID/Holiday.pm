@@ -40,6 +40,8 @@ sub prepare_data {
 1;
 # ABSTRACT: Indonesian holiday calendar
 
+=for Pod::Coverage ^(prepare_data)$
+
 =head1 DESCRIPTION
 
 This module provides Indonesian holiday calendar using the L<Calendar::Dates>
