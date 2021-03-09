@@ -1,6 +1,8 @@
 package Calendar::Dates::ID::Holiday;
 
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 use 5.010001;
@@ -19,7 +21,7 @@ sub prepare_data {
         entries => [],
     };
 
-    my $res = Calendar::Indonesia::Holiday::list_id_holidays(detail=>1);
+    my $res = Calendar::Indonesia::Holiday::list_idn_holidays(detail=>1);
     die "Cannot get list of holidays from Calendar::Indonesia::Holiday: $res->[0] - $res->[1]"
         unless $res->[0] == 200;
     for my $e (@{ $res->[2] }) {
