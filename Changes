@@ -1,3 +1,9 @@
+0.008   2021-03-09  Released-By: PERLANCAR; Urgency: medium
+
+	- Adjust to Calendar::Indonesia::Holiday 0.338+ (list_id_holidays
+	  -> list_idn_holidays).
+
+
 0.007   2019-02-15  Released-By: PERLANCAR
 
 	- No functional changes.
